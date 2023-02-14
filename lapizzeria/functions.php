@@ -3,10 +3,13 @@
     function lapizzeria_setup(){
 
         /** Gutenberg */
+        /** Titulos para SEO */
 
+        add_theme_support('title-tag');
         //Soporte a estilos por defult de gutenberg en tu tema
-
         add_theme_support('wp-block-styles');
+        //SOPORTE A CONTENIDO COMPLETO
+        add_theme_support('align-wide');
 
         //Paleta de Colores
 

@@ -50,6 +50,7 @@ p{
 h1,h2,h3,h4{
     font-family: var(--fuenteHeading);
     font-weight: 900;
+    color: var(--rojo);
 }
 
 h1{
@@ -58,6 +59,7 @@ h1{
 
 h2{
     font-size: 4rem;
+    color: var(--rojo);
 }
 
 h3{
@@ -95,6 +97,10 @@ img{
 
 .text-center{
     text-align: center;
+}
+
+.texto-primario{
+    color: var(--rojo);
 }
 
 .seccion{
@@ -387,6 +393,7 @@ img{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    background-attachment: fixed;
     height: 45rem;
     margin: 0 auto;
     position: relative;
